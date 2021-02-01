@@ -7,12 +7,14 @@ import json
 import sys
 import os
 import requests
+import pandas as pd
 
 
 def main():
     print ("test")
     parser = argparse.ArgumentParser(description='Process JSON file.')
     parser.add_argument('--json')
+    parser.add_argument('--tsv')
     args = parser.parse_args()
     if len(sys.argv) == 0:
         parser.print_help()
@@ -23,6 +25,9 @@ def main():
         for key in d:
             print (key + "\t" + d[key])
 
+    if args.tsv:
+        pd.read_csv(args.tsv, header=0, sep='\t')
+
+
 if __name__ == '__main__':
     main()
-

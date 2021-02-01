@@ -69,3 +69,8 @@ $> docker exec -it `docker ps | grep terra-dataset-size-survey_py-dev | awk '{pr
 The flask server is running on `http://localhost:9000` and just returns "Hello from py1"
 
 ## Python Script
+
+See `scripts/calculate_sizes_python_script/process.py`
+
+See `scripts/calculate_sizes_python_script/data_sources.tsv` which is a TSV version
+of this [Google spreadsheet](https://docs.google.com/spreadsheets/d/10A5kbSqUcWWUoPWHwREwCrRjCORZ5jrxQpWW5cMVgh0/edit#gid=0).
