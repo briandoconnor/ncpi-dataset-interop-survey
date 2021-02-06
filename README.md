@@ -11,7 +11,7 @@ NIH projects.
 To run the environment in Docker:
 
 - `git clone https://github.com/briandoconnor/terra-dataset-size-survey.git`
-- `docker-compose up` or `docker-compose up -d` if you want to avoid console output
+- `docker-compose up --build` or `docker-compose up -d --build` if you want to avoid console output
 
 At this point you now have a Docker container running that you can connect
 to and use for development, see below.
