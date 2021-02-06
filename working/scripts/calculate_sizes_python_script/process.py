@@ -28,6 +28,14 @@ def main():
     if args.tsv:
         pd.read_csv(args.tsv, header=0, sep='\t')
 
+    query_1000_genomes()
+
+
+
+def query_1000_genomes():
+    print ("Querying 1000G")
+    response = json.loads(requests.get("https://www.internationalgenome.org/api/beta/data-collection/_search").text)
+    print (response)
 
 if __name__ == '__main__':
     main()

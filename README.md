@@ -8,21 +8,18 @@ NIH projects.
 
 ## Running
 
-To run the example:
+To run the environment in Docker:
 
 - `git clone https://github.com/briandoconnor/terra-dataset-size-survey.git`
 - `docker-compose up` or `docker-compose up -d` if you want to avoid console output
+
+At this point you now have a Docker container running that you can connect
+to and use for development, see below.
 
 ## Organization
 
 I've reorganized the services into the `services` directory and the
 `working` directory is mounted and shared across the docker containers when run.
-
-## Basic Python Script
-
-I have a basic script located in `working/scripts/basic_python_script/process.py`
-that shows how to use argparse and json, items that I routinely need to use in
-simple scripts.
 
 ## Python Version
 
@@ -66,7 +63,8 @@ $> docker exec -it `docker ps | grep terra-dataset-size-survey_py-dev | awk '{pr
 
 ## Python Server
 
-The flask server is running on `http://localhost:9000` and just returns "Hello from py1"
+The flask server is running on `http://localhost:9000` and just returns "Hello from py1".
+I might use this for future development but for now it's unused.
 
 ## Python Script
 
@@ -74,3 +72,13 @@ See `scripts/calculate_sizes_python_script/process.py`
 
 See `scripts/calculate_sizes_python_script/data_sources.tsv` which is a TSV version
 of this [Google spreadsheet](https://docs.google.com/spreadsheets/d/10A5kbSqUcWWUoPWHwREwCrRjCORZ5jrxQpWW5cMVgh0/edit#gid=0).
+
+### Goal
+
+The goal is to work through this document and determine if there's a
+programmatic approach to determining 1) # of participants and 2) file sizes.
+
+### Data Sources
+
+See the document [DATA.md](DATA.md) for information on each dataset the
+script pulls from.
