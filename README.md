@@ -38,6 +38,10 @@ writing real scripts/services.
 Once you launch with `docker-compose up` you can login in to the Python service
 container using:
 
+    $> ./connect.sh
+
+For more details see...
+
 ```
 # list out the running containers
 $> docker ps
