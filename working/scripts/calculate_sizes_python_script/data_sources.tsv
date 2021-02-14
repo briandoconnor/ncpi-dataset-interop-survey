@@ -1,25 +1,26 @@
-Owner	Dataset	Datatype	# of Participants	File Size (est)
-ISGR	1000 Genomes		3,500	
-NHGRI (project AnVIL)	Centers for Common Disease Genomics (CCDG) 	large scale complex-trait genetics	65,000	
-NHGRI (project AnVIL)	Centers for Mendelian Genomics (CMG)	large scale rare diseases	5,000	
-NHGRI (project AnVIL)	EMERGE	clinical sequencing	TBD	
-NHGRI	CSER	clinical sequencing	TBD	
-NHGRI (NIH common fund project)	Genotype-Tissue Expression (GTEx) - NHLBI BioData Catalyst		11,688	
-Broad (MPG)	gnomAD		TBD	
-CMI	Count Me In		10,000	
-CFoS	Neuroimmune Consortium Data		TBD	
-Broad (MPG)	Clingen / Clinvar		11,000	
-UK	UK Biobank		502,543	
-NIH	All of US		300,000	
-NCI (Cloud Pilot)	The Cancer Genome Atlas (TCGA)		11,000	
-NCI (Cloud Pilot)	Therapeutically Applicable Research to Generate Effective Treatments (TARGET) 		1,324	
-Stanford, NIH	Encyclopedia of DNA Elements (ENCODE)		781	
-NHLBI (project Biodata Catalyst)	TOPMed - NHLBI BioData Catalyst	NHLBI cohorts	54,000	
-NHLBI	LungMap	single cell	TBD	
-NHLBI	COPD Gene	imaging heavy	TBD	
-U of Maryland	Neuroscience Multi-Omic Archive (Project NeMO)		1,850	
-CZI	Human Cell Atlas		294	
-Broad (Internal Admin)	Broad Dataset Workspace Library		TBD	
-Gates Foundation	Infectious Disease Surveillance Data		TBD	
-Broad (Stanley Center)	Pyschiatric Disease Genomic Data		TBD	
-MGB	Nurses Health Study		12,701	
+Code	Owner	Dataset	Datatype	Participants	Size
+1000G	ISGR	1000 Genomes		11224.0	813710045246836.0
+GDC	NCI	Genomic Data Commons		0.0	0.0
+CCDG	NHGRI (project AnVIL)	Centers for Common Disease Genomics (CCDG) 	large scale complex-trait genetics	65000.0	
+CMG	NHGRI (project AnVIL)	Centers for Mendelian Genomics (CMG)	large scale rare diseases	5000.0	
+EMERGE	NHGRI (project AnVIL)	EMERGE	clinical sequencing		
+CSER	NHGRI	CSER	clinical sequencing		
+GTEx	NHGRI (NIH common fund project)	Genotype-Tissue Expression (GTEx) - NHLBI BioData Catalyst		11688.0	
+gnomAD	Broad (MPG)	gnomAD			
+CMI	CMI	Count Me In		10000.0	
+NCD	CFoS	Neuroimmune Consortium Data			
+Clingen	Broad (MPG)	Clingen / Clinvar		11000.0	
+UKBB	UK	UK Biobank		502543.0	
+AoU	NIH	All of US		300000.0	
+TCGA	NCI (Cloud Pilot)	The Cancer Genome Atlas (TCGA)		11000.0	
+TARGET	NCI (Cloud Pilot)	Therapeutically Applicable Research to Generate Effective Treatments (TARGET) 		1324.0	
+ENCODE	Stanford, NIH	Encyclopedia of DNA Elements (ENCODE)		781.0	
+TOPMed	NHLBI (project Biodata Catalyst)	TOPMed - NHLBI BioData Catalyst	NHLBI cohorts	54000.0	
+LungMap	NHLBI	LungMap	single cell		
+COPD	NHLBI	COPD Gene	imaging heavy		
+NeMO	U of Maryland	Neuroscience Multi-Omic Archive (Project NeMO)		1850.0	
+HCA	CZI	Human Cell Atlas		294.0	
+BDWL	Broad (Internal Admin)	Broad Dataset Workspace Library			
+IDSD	Gates Foundation	Infectious Disease Surveillance Data			
+PDGD	Broad (Stanley Center)	Pyschiatric Disease Genomic Data			
+NHS	MGB	Nurses Health Study		12701.0	

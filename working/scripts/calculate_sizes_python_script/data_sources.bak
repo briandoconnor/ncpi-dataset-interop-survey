@@ -1,0 +1,25 @@
+Code	Owner	Dataset	Datatype	Participants	Size
+1000G	ISGR	1000 Genomes		3500	
+CCDG	NHGRI (project AnVIL)	Centers for Common Disease Genomics (CCDG) 	large scale complex-trait genetics	65000	
+CMG	NHGRI (project AnVIL)	Centers for Mendelian Genomics (CMG)	large scale rare diseases	5000	
+EMERGE	NHGRI (project AnVIL)	EMERGE	clinical sequencing	TBD	
+CSER	NHGRI	CSER	clinical sequencing	TBD	
+GTEx	NHGRI (NIH common fund project)	Genotype-Tissue Expression (GTEx) - NHLBI BioData Catalyst		11688	
+gnomAD	Broad (MPG)	gnomAD		TBD	
+CMI	CMI	Count Me In		10000	
+NCD	CFoS	Neuroimmune Consortium Data		TBD	
+Clingen	Broad (MPG)	Clingen / Clinvar		11000	
+UKBB	UK	UK Biobank		502543	
+AoU	NIH	All of US		300000	
+TCGA	NCI (Cloud Pilot)	The Cancer Genome Atlas (TCGA)		11000	
+TARGET	NCI (Cloud Pilot)	Therapeutically Applicable Research to Generate Effective Treatments (TARGET) 		1324	
+ENCODE	"Stanford, NIH"	Encyclopedia of DNA Elements (ENCODE)		781	
+TOPMed	NHLBI (project Biodata Catalyst)	TOPMed - NHLBI BioData Catalyst	NHLBI cohorts	54000	
+LungMap	NHLBI	LungMap	single cell	TBD	
+COPD	NHLBI	COPD Gene	imaging heavy	TBD	
+NeMO	U of Maryland	Neuroscience Multi-Omic Archive (Project NeMO)		1850	
+HCA	CZI	Human Cell Atlas		294	
+BDWL	Broad (Internal Admin)	Broad Dataset Workspace Library		TBD	
+IDSD	Gates Foundation	Infectious Disease Surveillance Data		TBD	
+PDGD	Broad (Stanley Center)	Pyschiatric Disease Genomic Data		TBD	
+NHS	MGB	Nurses Health Study		12701	
