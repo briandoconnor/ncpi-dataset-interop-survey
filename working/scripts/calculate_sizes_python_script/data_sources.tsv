@@ -1,6 +1,6 @@
 Code	Owner	Dataset	Datatype	Participants	Size
 1000G	ISGR	1000 Genomes		11224.0	813710045246836.0
-GDC	NCI	Genomic Data Commons		0.0	0.0
+GDC	NCI	Genomic Data Commons		84591.0	1655216562229613.0
 CCDG	NHGRI (project AnVIL)	Centers for Common Disease Genomics (CCDG) 	large scale complex-trait genetics	65000.0	
 CMG	NHGRI (project AnVIL)	Centers for Mendelian Genomics (CMG)	large scale rare diseases	5000.0	
 EMERGE	NHGRI (project AnVIL)	EMERGE	clinical sequencing		

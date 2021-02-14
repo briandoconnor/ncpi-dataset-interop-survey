@@ -21,3 +21,8 @@ Expand the data collection to include new populations not represented in the 100
 No public API but here's the API that powers their website:
 
 https://www.internationalgenome.org/api/beta/data-collection/_search
+
+
+## GDC
+
+https://portal.gdc.cancer.gov/auth/api/v0/graphql?hash=7a8ca53aa9b15e4f28abb180a692893e
