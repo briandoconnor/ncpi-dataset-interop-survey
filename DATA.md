@@ -1,5 +1,15 @@
 # Data Sources
 
+## Template
+
+* URL:
+* Open/Controlled:
+* API:
+
+### Description:
+
+### Tech Details
+
 ## 1000 Genomes
 
 * URL: https://www.internationalgenome.org/data/
@@ -25,4 +35,15 @@ https://www.internationalgenome.org/api/beta/data-collection/_search
 
 ## GDC
 
-https://portal.gdc.cancer.gov/auth/api/v0/graphql?hash=7a8ca53aa9b15e4f28abb180a692893e
+* URL:
+* Open/Controlled:
+* API: https://portal.gdc.cancer.gov/auth/api/v0/graphql?hash=7a8ca53aa9b15e4f28abb180a692893e
+
+### Description:
+
+### Tech Details
+
+
+## PDC
+
+See [email](https://mail.google.com/mail/u/3/?zx=rkmgl6cqlnby#label/0+Triage/FMfcgxwLsJtCSRXDZwbvvJGJzfJJXNWL) with details 

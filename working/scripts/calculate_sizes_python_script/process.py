@@ -17,10 +17,11 @@ import fnmatch
 # excellent tool to convert cURLs from Chrome to Python Code: https://curl.trillworks.com/#
 
 def main():
+    print ("\n============================")
     print ("DISCOVERING DATASET SIZES...")
-    print ("============================")
-    parser = argparse.ArgumentParser(description='Process JSON file.')
-    parser.add_argument('--tsv', help='A TSV file 6 columns, the first is "Code", the last two are "Participants" and "Size" respectively. The file will be overwritten with updated participants and size counts for each source missing one or both.')
+    print ("============================\n")
+    parser = argparse.ArgumentParser(description='This script uses APIs from various projects to determine the number of participants and total size of files available.')
+    parser.add_argument('tsv', help='A TSV file 6 columns, the first is "Code", the last two are "Participants" and "Size" respectively. The file will be overwritten with updated participants and size counts for each source missing one or both.')
     args = parser.parse_args()
 
     if len(sys.argv) <= 1:
@@ -46,7 +47,9 @@ def main():
             print ("...VALUES EXIST FOR SIZE AND CASES, SKIPPING")
 
         # print summary
-        print("SUMMARY...")
+        print ("\n============================")
+        print ("SUMMARY...")
+        print ("============================\n")
         print(df)
         # write output file
         df.to_csv(args.tsv, sep='\t', index=False)
