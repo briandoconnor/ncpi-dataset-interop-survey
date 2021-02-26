@@ -1,16 +1,17 @@
-# Terra Dataset Size Survey
+# NCPI Dataset Size Survey
 
 ## About
 
 This repo contains the scripts, and a dev environment for, a dataset size survey.
-I'm using this to explore the datasets available to Terra through a variety of
-NIH projects.
+I'm using this to explore the datasets available to NCPI interoperable systems from a variety of
+NIH projects.  These are datasets that are (or can be) made available using GA4GH DRS and
+also with portals that are (or can be made) able to exchange search results using PFB.
 
 ## Running
 
 To run the environment in Docker:
 
-- `git clone https://github.com/briandoconnor/terra-dataset-size-survey.git`
+- `git clone https://github.com/briandoconnor/ncpi-dataset-size-survey.git`
 - `docker-compose up --build` or `docker-compose up -d --build` if you want to avoid console output
 
 At this point you now have a Docker container running that you can connect
@@ -62,7 +63,7 @@ root@02d2b8fce3af:~/py-dev# ls
 scripts
 
 # a shortcut to connecting
-$> docker exec -it `docker ps | grep terra-dataset-size-survey_py-dev | awk '{print $1}'` /bin/bash
+$> docker exec -it `docker ps | grep ncpi-dataset-size-survey_py-dev | awk '{print $1}'` /bin/bash
 ```
 
 ## Python Server
