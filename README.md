@@ -1,4 +1,4 @@
-# NCPI Dataset Size Survey
+# NCPI Dataset Interop Survey
 
 ## About
 
@@ -11,7 +11,7 @@ also with portals that are (or can be made) able to exchange search results usin
 
 To run the environment in Docker:
 
-- `git clone https://github.com/briandoconnor/ncpi-dataset-size-survey.git`
+- `git clone https://github.com/briandoconnor/ncpi-dataset-interop-survey.git`
 - `docker-compose up --build` or `docker-compose up -d --build` if you want to avoid console output
 
 At this point you now have a Docker container running that you can connect
@@ -63,7 +63,7 @@ root@02d2b8fce3af:~/py-dev# ls
 scripts
 
 # a shortcut to connecting
-$> docker exec -it `docker ps | grep ncpi-dataset-size-survey_py-dev | awk '{print $1}'` /bin/bash
+$> docker exec -it `docker ps | grep ncpi-dataset-interop-survey_py-dev | awk '{print $1}'` /bin/bash
 ```
 
 ## Python Server
