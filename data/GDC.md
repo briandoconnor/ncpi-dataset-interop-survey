@@ -304,3 +304,23 @@ curl --remote-name --remote-header-name 'https://api.gdc.cancer.gov/data/f810592
 ```
 
 The end result is a file that says "Your token is invalid or expired. Please get a new token from GDC Data Portal."
+
+After talking with U. Chicago staff, you can use your token to get signed
+URLs from the cloud native URLs through a request like the following:
+
+```
+token=$(<gdc-token-text-file.txt)
+
+curl --remote-name --remote-header-name 'https://nci-crdc.datacommons.io/ga4gh/drs/v1/objects/f810592a-c69d-4d6b-ad44-ca1377892231/access/s3' \
+  --header "Authorization: Bearer $token"
+
+  curl --remote-name --remote-header-name 'https://nci-crdc.datacommons.io/ga4gh/drs/v1/objects/f810592a-c69d-4d6b-ad44-ca1377892231/access/gs' \
+    --header "Authorization: Bearer $token"
+
+curl --remote-name --remote-header-name 'https://nci-crdc.datacommons.io/ga4gh/drs/v1/objects/f810592a-c69d-4d6b-ad44-ca1377892231/access/s3' \
+--header "X-Auth-Token: $token"
+
+curl --remote-name --remote-header-name 'https://nci-crdc.datacommons.io/ga4gh/drs/v1/objects/f810592a-c69d-4d6b-ad44-ca1377892231/access/gs' \
+--header "X-Auth-Token: $token"
+```
+None of these worked, so I'm really not sure how I can get a signed URL for a cloud.
