@@ -1,6 +1,4 @@
-# Data Sources
-
-## Template
+## GMKF
 
 * URL:
 * Open/Controlled:
@@ -13,11 +11,3 @@
 ### Available Datasets
 
 ### Tech Details
-
-* [1000 Genomes](data/1000.md)
-* [GDC](data/GDC.md)
-* [PDC](data/PDC.md)
-* [IDC](data/IDC.md)
-* [BioData Catalyst](data/bdcat.md)
-* [AnVIL](data/anvil.md)
-* [GMKF](data/gmkf.md)
