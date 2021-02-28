@@ -13,6 +13,7 @@ To run the environment in Docker:
 
 - `git clone https://github.com/briandoconnor/ncpi-dataset-interop-survey.git`
 - `docker-compose up --build` or `docker-compose up -d --build` if you want to avoid console output
+- you may need to do `security unlock-keychain` if working on a remote connection to a mac
 
 At this point you now have a Docker container running that you can connect
 to and use for development, see below.
