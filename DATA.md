@@ -1,5 +1,13 @@
 # Data Sources
 
+* ✅[1000 Genomes](data/1000.md)
+* ✅[GDC](data/GDC.md): TODO: need to figure out how to get signed URLs for GS/S3 objects
+* [PDC](data/PDC.md)
+* [IDC](data/IDC.md)
+* [BioData Catalyst](data/bdcat.md)
+* [AnVIL](data/anvil.md)
+* [GMKF](data/gmkf.md)
+
 ## Template
 
 * URL:
@@ -13,11 +21,3 @@
 ### Available Datasets
 
 ### Tech Details
-
-* [1000 Genomes](data/1000.md)
-* [GDC](data/GDC.md)
-* [PDC](data/PDC.md)
-* [IDC](data/IDC.md)
-* [BioData Catalyst](data/bdcat.md)
-* [AnVIL](data/anvil.md)
-* [GMKF](data/gmkf.md)
